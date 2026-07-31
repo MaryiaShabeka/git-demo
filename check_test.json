@@ -1,0 +1,1269 @@
+{
+    "containerVersion": "3",
+    "compilerVersion": "1.60.0",
+    "containerId": 44491,
+    "variables": [
+        {
+            "type": "event",
+            "permissions": 0
+        },
+        {
+            "type": "dataLayer",
+            "key": "visibleElementClass",
+            "permissions": 5
+        },
+        {
+            "type": "js",
+            "key": "document.title",
+            "permissions": 3
+        },
+        {
+            "type": "js",
+            "key": "location.href",
+            "permissions": 3
+        },
+        {
+            "type": "js",
+            "key": "window.__ytmCreative",
+            "permissions": 3
+        },
+        {
+            "type": "dataLayer",
+            "key": "creative_view",
+            "permissions": 5
+        },
+        {
+            "type": "dataLayer",
+            "key": "ytm.element",
+            "permissions": 5
+        },
+        {
+            "type": "dataLayer",
+            "key": "ytm.elementUrl",
+            "permissions": 5
+        },
+        {
+            "type": "dataLayer",
+            "key": "ytm.elementText",
+            "permissions": 5
+        },
+        {
+            "type": "url",
+            "component": "href",
+            "permissions": 6
+        }
+    ],
+    "triggers": [
+        {
+            "conditions": [
+                {
+                    "target": "ytm.linkClick",
+                    "var": 0,
+                    "fn": "eq"
+                },
+                {
+                    "var": 6,
+                    "fn": "css",
+                    "target": ".float-link *",
+                    "not": false
+                }
+            ],
+            "tags": [
+                4
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "target": "ytm.linkClick",
+                    "var": 0,
+                    "fn": "eq"
+                },
+                {
+                    "var": 6,
+                    "fn": "css",
+                    "target": "a[class*=\"-type-banner\"]",
+                    "not": false
+                }
+            ],
+            "tags": [
+                5
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "target": "ytm.linkClick",
+                    "var": 0,
+                    "fn": "eq"
+                },
+                {
+                    "var": 6,
+                    "fn": "css",
+                    "target": ".pr-b-content-wrp *",
+                    "not": false
+                }
+            ],
+            "tags": [
+                6
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "target": "ytm.linkClick",
+                    "var": 0,
+                    "fn": "eq"
+                },
+                {
+                    "var": 7,
+                    "fn": "inc",
+                    "target": "zen.yandex.ru",
+                    "not": false
+                }
+            ],
+            "tags": [
+                14
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "target": "ytm.linkClick",
+                    "var": 0,
+                    "fn": "eq"
+                },
+                {
+                    "var": 7,
+                    "fn": "regex",
+                    "target": "vk.com|v.thecode.media/dl9nz",
+                    "not": false
+                }
+            ],
+            "tags": [
+                15
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "target": "ytm.linkClick",
+                    "var": 0,
+                    "fn": "eq"
+                },
+                {
+                    "var": 7,
+                    "fn": "regex",
+                    "target": "t.me|v.thecode.media/ejriw",
+                    "not": false
+                }
+            ],
+            "tags": [
+                16
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "target": "ytm.linkClick",
+                    "var": 0,
+                    "fn": "eq"
+                },
+                {
+                    "var": 7,
+                    "fn": "inc",
+                    "target": "practicum.yandex",
+                    "not": false
+                }
+            ],
+            "tags": [
+                11
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "target": "ytm.js",
+                    "var": 0,
+                    "fn": "eq"
+                }
+            ],
+            "tags": [
+                3,
+                21
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "target": "scroll_25_percent",
+                    "var": 0,
+                    "fn": "eq"
+                }
+            ],
+            "tags": [
+                20
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "target": "scroll_50_percent",
+                    "var": 0,
+                    "fn": "eq"
+                }
+            ],
+            "tags": [
+                19
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "target": "scroll_75_percent",
+                    "var": 0,
+                    "fn": "eq"
+                }
+            ],
+            "tags": [
+                18
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "target": "scroll_100_percent",
+                    "var": 0,
+                    "fn": "eq"
+                }
+            ],
+            "tags": [
+                17
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "target": "two_minutes_on_page",
+                    "var": 0,
+                    "fn": "eq"
+                }
+            ],
+            "tags": [
+                13
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "target": "ytm.js",
+                    "var": 0,
+                    "fn": "eq"
+                },
+                {
+                    "var": 9,
+                    "fn": "inc",
+                    "target": "/",
+                    "not": false
+                }
+            ],
+            "tags": [
+                8,
+                9,
+                10
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "target": "ytm.linkClick",
+                    "var": 0,
+                    "fn": "eq"
+                },
+                {
+                    "var": 6,
+                    "fn": "css",
+                    "target": ".pr-wrp *",
+                    "not": false
+                }
+            ],
+            "tags": [
+                6
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "target": "ytm.linkClick",
+                    "var": 0,
+                    "fn": "eq"
+                },
+                {
+                    "var": 6,
+                    "fn": "css",
+                    "target": ".b-colored *",
+                    "not": false
+                }
+            ],
+            "tags": [
+                5
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "target": "ytm.click",
+                    "var": 0,
+                    "fn": "eq"
+                },
+                {
+                    "var": 8,
+                    "fn": "inc",
+                    "target": "Читать мастрид",
+                    "not": false
+                }
+            ],
+            "tags": [
+                12
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "target": "ytm.click",
+                    "var": 0,
+                    "fn": "eq"
+                }
+            ],
+            "tags": [
+                3
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "target": "ytm.linkClick",
+                    "var": 0,
+                    "fn": "eq"
+                }
+            ],
+            "tags": [
+                3,
+                7
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "target": "banner_visible",
+                    "var": 0,
+                    "fn": "eq"
+                },
+                {
+                    "var": 1,
+                    "fn": "inc",
+                    "target": "pr-wrp",
+                    "not": false
+                }
+            ],
+            "tags": [
+                2
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "target": "banner_visible",
+                    "var": 0,
+                    "fn": "eq"
+                },
+                {
+                    "var": 1,
+                    "fn": "inc",
+                    "target": "pr-b-content-wrp",
+                    "not": false
+                }
+            ],
+            "tags": [
+                2
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "target": "mini_banner_visible",
+                    "var": 0,
+                    "fn": "eq"
+                },
+                {
+                    "var": 1,
+                    "fn": "inc",
+                    "target": "b-colored",
+                    "not": false
+                }
+            ],
+            "tags": [
+                1
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "target": "mini_banner_visible",
+                    "var": 0,
+                    "fn": "eq"
+                },
+                {
+                    "var": 1,
+                    "fn": "inc",
+                    "target": "-type-banner",
+                    "not": false
+                }
+            ],
+            "tags": [
+                1
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "target": "ytm.dom",
+                    "var": 0,
+                    "fn": "eq"
+                }
+            ],
+            "tags": [
+                0
+            ]
+        }
+    ],
+    "permissions": [
+        {
+            "dataLayer": {
+                "keys": {
+                    "event": 2
+                }
+            }
+        },
+        {
+            "globals": {
+                "keys": {
+                    "ym": 3,
+                    "ym.a": 3
+                }
+            }
+        },
+        {
+            "log": 0
+        },
+        {
+            "globals": {
+                "allKeys": 2
+            }
+        },
+        {
+            "html": {
+                "unsafeSet": true
+            }
+        },
+        {
+            "dataLayer": {
+                "allKeys": 2
+            }
+        },
+        {
+            "url": {
+                "fragment": true,
+                "href": true,
+                "host": true,
+                "path": true,
+                "port": true,
+                "protocol": true,
+                "query": true,
+                "extension": true
+            }
+        }
+    ],
+    "tags": [
+        {
+            "id": "1178445",
+            "type": "html",
+            "data": {
+                "html": "<script type=\"text/ytmscript\">\n(function(){\n  if (window.__dlEnrichInstalled) return;\n  window.__dlEnrichInstalled = true;\n\n  // Все селекторы, внутри которых может быть ссылка с utm_creative\n  var SELECTORS = [\n    'a[class*=\"-type-banner\"]',\n    '.b-colored *',\n    '.pr-b-content-wrp *',\n    '.pr-wrp *'\n  ];\n\n  // Оригинальный push\n  window.dataLayer = window.dataLayer || [];\n  var _push = window.dataLayer.push;\n\n  // Проверка видимости (≥50% высоты в вьюпорте)\n  function inView(el){\n    try{\n      var r = el.getBoundingClientRect();\n      var h = r.height || (el.offsetHeight || 1);\n      var visible = Math.max(0, Math.min(r.bottom, window.innerHeight) - Math.max(r.top, 0));\n      return (visible / h) >= 0.5;\n    }catch(e){ return false; }\n  }\n\n  // Находим первый видимый элемент по набору селекторов\n  function findVisibleElement(){\n    try{\n      for (var s = 0; s < SELECTORS.length; s++) {\n        var list = document.querySelectorAll(SELECTORS[s]);\n        for (var i = 0; i < list.length; i++){\n          if (inView(list[i])) return list[i];\n        }\n      }\n    }catch(e){}\n    return null;\n  }\n\n  // Достаём href\n  function getHref(el){\n    try{\n      if (!el) return '';\n      var a = el.querySelector ? el.querySelector('a[href]') : null;\n      if (a && a.getAttribute) return a.getAttribute('href') || '';\n      if (el.tagName && el.tagName.toLowerCase() === 'a') return el.getAttribute('href') || '';\n      if (el.getAttribute){\n        var h = el.getAttribute('data-href') || el.getAttribute('data-url') || '';\n        if (h) return h;\n      }\n      if (el.dataset){\n        var h2 = el.dataset.href || el.dataset.url || '';\n        if (h2) return h2;\n      }\n    }catch(e){}\n    return '';\n  }\n\n  // Парсим creative из href\n  function getCreative(href){\n    try{\n      if (!href) return '';\n      var url = href.indexOf('http') === 0 ? new URL(href) : new URL(href, location.origin);\n      var qs  = new URLSearchParams(url.search);\n      return qs.get('creative') || '';\n    }catch(e){ return ''; }\n  }\n\n  // Перехватываем push и добавляем creative_view\n  window.dataLayer.push = function(obj){\n    try{\n      if (obj && typeof obj === 'object' && obj.event){\n        var ev = String(obj.event);\n        if (ev === 'banner_visible' || ev === 'mini_banner_visible'){\n          if (!obj.hasOwnProperty('creative_view') || !obj.creative_view){\n            var el = findVisibleElement();\n            var href = getHref(el);\n            var creative = getCreative(href);\n            if (creative) {\n              obj.creative_view = creative;\n              window.__ytmCreativeView = creative; // на случай, если используешь через JS-переменную\n            }\n          }\n        }\n      }\n    }catch(e){}\n    return _push.apply(this, arguments);\n  };\n})();\n</script>"
+            },
+            "permissions": 4
+        },
+        {
+            "id": "254163",
+            "type": "pro",
+            "data": 0,
+            "permissions": 1,
+            "settings": {
+                "params": [
+                    "template",
+                    "{ \"Заголовок страницы\" : \"",
+                    [
+                        "var",
+                        2
+                    ],
+                    "\", \"URL страницы\": \"",
+                    [
+                        "var",
+                        3
+                    ],
+                    "\" , \"creative_view\" : \"",
+                    [
+                        "var",
+                        5
+                    ],
+                    "\"}"
+                ],
+                "counter_id": "52856779",
+                "target": "ytm_mini_banner_view",
+                "value_checkbox": "",
+                "params_checkbox": "true"
+            }
+        },
+        {
+            "id": "254180",
+            "type": "pro",
+            "data": 0,
+            "permissions": 1,
+            "settings": {
+                "params": [
+                    "template",
+                    "{ \"Заголовок страницы\" : \"",
+                    [
+                        "var",
+                        2
+                    ],
+                    "\", \"URL страницы\": \"",
+                    [
+                        "var",
+                        3
+                    ],
+                    "\" , \"creative_view\" : \"",
+                    [
+                        "var",
+                        5
+                    ],
+                    "\"}"
+                ],
+                "counter_id": "52856779",
+                "target": "ytm_baner_view",
+                "value_checkbox": "",
+                "params_checkbox": "true"
+            }
+        },
+        {
+            "id": "262129",
+            "type": "pro",
+            "data": 1,
+            "permissions": 2,
+            "settings": {
+                "variable": [
+                    "template",
+                    "клик текст - ",
+                    [
+                        "var",
+                        8
+                    ],
+                    " клик элемент - ",
+                    [
+                        "var",
+                        6
+                    ],
+                    " name title - ",
+                    [
+                        "var",
+                        2
+                    ],
+                    " utr страницы - ",
+                    [
+                        "var",
+                        3
+                    ],
+                    "  creative - ",
+                    [
+                        "var",
+                        4
+                    ]
+                ]
+            }
+        },
+        {
+            "id": "254227",
+            "type": "pro",
+            "data": 0,
+            "permissions": 1,
+            "settings": {
+                "params": [
+                    "template",
+                    "{ \"Заголовок страницы\" : \"",
+                    [
+                        "var",
+                        2
+                    ],
+                    "\", \"URL страницы\": \"",
+                    [
+                        "var",
+                        3
+                    ],
+                    "\", \"creative\" : \"",
+                    [
+                        "var",
+                        4
+                    ],
+                    "\" }"
+                ],
+                "counter_id": "52856779",
+                "target": "ytm_click_banner_peretyazhka",
+                "value_checkbox": "",
+                "params_checkbox": "true"
+            }
+        },
+        {
+            "id": "254226",
+            "type": "pro",
+            "data": 0,
+            "permissions": 1,
+            "settings": {
+                "params": [
+                    "template",
+                    "{ \"Заголовок страницы\" : \"",
+                    [
+                        "var",
+                        2
+                    ],
+                    "\", \"URL страницы\": \"",
+                    [
+                        "var",
+                        3
+                    ],
+                    "\" , \"creative\" : \"",
+                    [
+                        "var",
+                        4
+                    ],
+                    "\"}"
+                ],
+                "counter_id": "52856779",
+                "target": "ytm_mini_banner_click",
+                "value_checkbox": "",
+                "params_checkbox": "true"
+            }
+        },
+        {
+            "id": "254225",
+            "type": "pro",
+            "data": 0,
+            "permissions": 1,
+            "settings": {
+                "params": [
+                    "template",
+                    "{ \"Заголовок страницы\" : \"",
+                    [
+                        "var",
+                        2
+                    ],
+                    "\", \"URL страницы\": \"",
+                    [
+                        "var",
+                        3
+                    ],
+                    "\" , \"creative\" : \"",
+                    [
+                        "var",
+                        4
+                    ],
+                    "\"}"
+                ],
+                "counter_id": "52856779",
+                "target": "ytm_baner_click",
+                "value_checkbox": "",
+                "params_checkbox": "true"
+            }
+        },
+        {
+            "id": "1173171",
+            "type": "html",
+            "data": {
+                "html": [
+                    "template",
+                    "<script type=\"text/ytmscript\">\n(function(){\n  try{\n    var el = ",
+                    [
+                        "escape",
+                        [
+                            "var",
+                            6
+                        ],
+                        7
+                    ],
+                    ";\n    if (!el) return;\n\n    // ищем URL в ближайшей/вложенной ссылке или на самом элементе\n    var href = '';\n    var a = el.closest ? el.closest('a') : null;\n    if (a && a.getAttribute) href = a.getAttribute('href') || '';\n    if (!href && el.querySelector) {\n      var inside = el.querySelector('a[href]');\n      if (inside) href = inside.getAttribute('href') || '';\n    }\n    if (!href && el.getAttribute) {\n      href = el.getAttribute('href') || el.getAttribute('data-href') || el.getAttribute('data-url') || '';\n    }\n    if (!href && el.dataset) {\n      href = el.dataset.href || el.dataset.url || '';\n    }\n    if (!href) return;\n\n    // парсим параметр creative\n    var url = href.indexOf('http')===0 ? new URL(href) : new URL(href, location.origin);\n    var qs  = new URLSearchParams(url.search);\n    var creative = qs.get('creative');\n\n    // записываем только если есть значение (не затираем пустотой)\n    if (creative) window.__ytmCreative = creative;\n  }catch(e){}\n})();\n</script>"
+                ]
+            },
+            "permissions": 4
+        },
+        {
+            "id": "265075",
+            "type": "html",
+            "data": {
+                "html": "<script type=\"text/ytmscript\">\n  if (!sessionStorage.getItem('two_minutes_tracked')) {\n    setTimeout(function () {\n      window.dataLayer = window.dataLayer || [];\n      dataLayer.push({\n        event: 'two_minutes_on_page'\n      });\n      sessionStorage.setItem('two_minutes_tracked', '1');\n    }, 120000); // 2 минуты = 120000 мс\n  }\n</script>"
+            },
+            "permissions": 4
+        },
+        {
+            "id": "264307",
+            "type": "html",
+            "data": {
+                "html": "<script type=\"text/ytmscript\">\n(function() {\n  const selectors = [\n    '.b-colored',\n    '[class$=\"-type-banner\"]'\n  ];\n\n  const observer = new IntersectionObserver((entries) => {\n    entries.forEach(entry => {\n      if (entry.isIntersecting) {\n        const classList = entry.target.className || '';\n        window.dataLayer = window.dataLayer || [];\n        window.dataLayer.push({\n          event: 'mini_banner_visible',\n          visibleElementClass: classList.trim()\n        });\n      }\n    });\n  }, {\n    threshold: 0.5\n  });\n\n  selectors.forEach(selector => {\n    document.querySelectorAll(selector).forEach(el => observer.observe(el));\n  });\n})();\n</script>"
+            },
+            "permissions": 4
+        },
+        {
+            "id": "262900",
+            "type": "html",
+            "data": {
+                "html": "<script type=\"text/ytmscript\">\n(function () {\n  const selectors = ['.pr-wrp', '.pr-b-content-wrp'];\n  const seen = new WeakSet();\n\n  const observer = new IntersectionObserver((entries) => {\n    entries.forEach(entry => {\n      if (entry.isIntersecting && !seen.has(entry.target)) {\n        seen.add(entry.target);\n\n        const className = entry.target.className || '';\n        window.dataLayer = window.dataLayer || [];\n        window.dataLayer.push({\n          event: 'banner_visible',\n          visibleElementClass: className\n        });\n      }\n    });\n  }, { threshold: 0.5 });\n\n  function observeAll() {\n    selectors.forEach(selector => {\n      document.querySelectorAll(selector).forEach(el => {\n        observer.observe(el);\n      });\n    });\n  }\n\n  // Вызов при загрузке страницы\n  observeAll();\n\n  // Если элементы появляются позже\n  const mo = new MutationObserver(observeAll);\n  mo.observe(document.body, { childList: true, subtree: true });\n})();\n</script>"
+            },
+            "permissions": 4
+        },
+        {
+            "id": "254220",
+            "type": "pro",
+            "data": 0,
+            "permissions": 1,
+            "settings": {
+                "params": [
+                    "template",
+                    "{ \"Заголовок страницы\" : \"",
+                    [
+                        "var",
+                        2
+                    ],
+                    "\", \"URL страницы\": \"",
+                    [
+                        "var",
+                        3
+                    ],
+                    "\" }"
+                ],
+                "counter_id": "52856779",
+                "target": "ytm_practicum",
+                "value_checkbox": "",
+                "params_checkbox": "true"
+            }
+        },
+        {
+            "id": "261847",
+            "type": "pro",
+            "data": 0,
+            "permissions": 1,
+            "settings": {
+                "counter_id": "52856779",
+                "target": "ytm_click_mastread",
+                "value_checkbox": "",
+                "params_checkbox": ""
+            }
+        },
+        {
+            "id": "254608",
+            "type": "pro",
+            "data": 0,
+            "permissions": 1,
+            "settings": {
+                "counter_id": "52856779",
+                "target": "two_minutes_on_page",
+                "value_checkbox": "",
+                "params_checkbox": ""
+            }
+        },
+        {
+            "id": "254346",
+            "type": "pro",
+            "data": 0,
+            "permissions": 1,
+            "settings": {
+                "counter_id": "52856779",
+                "target": "ytm_click_dzen",
+                "value_checkbox": "",
+                "params_checkbox": ""
+            }
+        },
+        {
+            "id": "254336",
+            "type": "pro",
+            "data": 0,
+            "permissions": 1,
+            "settings": {
+                "counter_id": "52856779",
+                "target": "ytm_click_vk",
+                "value_checkbox": "",
+                "params_checkbox": ""
+            }
+        },
+        {
+            "id": "254326",
+            "type": "pro",
+            "data": 0,
+            "permissions": 1,
+            "settings": {
+                "counter_id": "52856779",
+                "target": "ytm_click_tg",
+                "value_checkbox": "",
+                "params_checkbox": ""
+            }
+        },
+        {
+            "id": "254285",
+            "type": "pro",
+            "data": 0,
+            "permissions": 1,
+            "settings": {
+                "counter_id": "52856779",
+                "target": "ytm_scroll100",
+                "value_checkbox": "",
+                "params_checkbox": ""
+            }
+        },
+        {
+            "id": "254283",
+            "type": "pro",
+            "data": 0,
+            "permissions": 1,
+            "settings": {
+                "counter_id": "52856779",
+                "target": "ytm_scroll75",
+                "value_checkbox": "",
+                "params_checkbox": ""
+            }
+        },
+        {
+            "id": "254282",
+            "type": "pro",
+            "data": 0,
+            "permissions": 1,
+            "settings": {
+                "counter_id": "52856779",
+                "target": "ytm_scroll50",
+                "value_checkbox": "",
+                "params_checkbox": ""
+            }
+        },
+        {
+            "id": "254281",
+            "type": "pro",
+            "data": 0,
+            "permissions": 1,
+            "settings": {
+                "counter_id": "52856779",
+                "target": "ytm_scroll25",
+                "value_checkbox": "",
+                "params_checkbox": ""
+            }
+        },
+        {
+            "id": "254234",
+            "type": "html",
+            "data": {
+                "html": "<script type=\"text/ytmscript\">\n(function() {\n  const scrollPoints = [25, 50, 75, 100];\n  const triggered = {};\n\n  function checkScroll() {\n    const scrollTop = window.scrollY || window.pageYOffset;\n    const docHeight = document.documentElement.scrollHeight - window.innerHeight;\n    const scrollPercent = (scrollTop / docHeight) * 100;\n\n    scrollPoints.forEach(point => {\n      if (!triggered[point] && scrollPercent >= point) {\n        triggered[point] = true;\n\n        window.dataLayer = window.dataLayer || [];\n        window.dataLayer.push({\n          event: 'scroll_' + point + '_percent'\n        });\n      }\n    });\n  }\n\n  window.addEventListener('scroll', checkScroll);\n})();\n</script>"
+            },
+            "permissions": 4
+        }
+    ],
+    "code": [
+        [
+            1,
+            "t-149-10",
+            [
+                18,
+                [
+                    "a",
+                    [
+                        37,
+                        [
+                            40,
+                            "require"
+                        ],
+                        "createArgumentsQueue"
+                    ]
+                ],
+                [
+                    "e",
+                    [
+                        37,
+                        [
+                            40,
+                            "require"
+                        ],
+                        "JSON"
+                    ]
+                ],
+                [
+                    "r",
+                    [
+                        37,
+                        [
+                            40,
+                            "require"
+                        ],
+                        "queryPermission"
+                    ]
+                ],
+                [
+                    "c",
+                    [
+                        33,
+                        "&&",
+                        [
+                            33,
+                            "&&",
+                            [
+                                33,
+                                "&&",
+                                [
+                                    37,
+                                    [
+                                        40,
+                                        "r"
+                                    ],
+                                    "access_globals",
+                                    "read",
+                                    "ym"
+                                ],
+                                [
+                                    37,
+                                    [
+                                        40,
+                                        "r"
+                                    ],
+                                    "access_globals",
+                                    "write",
+                                    "ym"
+                                ]
+                            ],
+                            [
+                                37,
+                                [
+                                    40,
+                                    "r"
+                                ],
+                                "access_globals",
+                                "read",
+                                "ym.a"
+                            ]
+                        ],
+                        [
+                            37,
+                            [
+                                40,
+                                "r"
+                            ],
+                            "access_globals",
+                            "write",
+                            "ym.a"
+                        ]
+                    ]
+                ]
+            ],
+            [
+                7,
+                [
+                    40,
+                    "c"
+                ],
+                [
+                    3,
+                    [
+                        18,
+                        [
+                            "r",
+                            [
+                                37,
+                                [
+                                    40,
+                                    "a"
+                                ],
+                                "ym",
+                                "ym.a"
+                            ]
+                        ],
+                        [
+                            "c",
+                            [
+                                36,
+                                [
+                                    35,
+                                    [
+                                        40,
+                                        "data"
+                                    ],
+                                    "params"
+                                ],
+                                [
+                                    37,
+                                    [
+                                        35,
+                                        [
+                                            40,
+                                            "e"
+                                        ],
+                                        "parse"
+                                    ],
+                                    [
+                                        35,
+                                        [
+                                            40,
+                                            "data"
+                                        ],
+                                        "params"
+                                    ]
+                                ],
+                                [
+                                    23
+                                ]
+                            ]
+                        ]
+                    ],
+                    [
+                        7,
+                        [
+                            29,
+                            "!=",
+                            [
+                                42
+                            ],
+                            [
+                                35,
+                                [
+                                    40,
+                                    "data"
+                                ],
+                                "price"
+                            ]
+                        ],
+                        [
+                            2,
+                            [
+                                31,
+                                "=",
+                                [
+                                    35,
+                                    [
+                                        40,
+                                        "c"
+                                    ],
+                                    "price"
+                                ],
+                                [
+                                    35,
+                                    [
+                                        40,
+                                        "data"
+                                    ],
+                                    "price"
+                                ]
+                            ]
+                        ]
+                    ],
+                    [
+                        7,
+                        [
+                            29,
+                            "!=",
+                            [
+                                42
+                            ],
+                            [
+                                35,
+                                [
+                                    40,
+                                    "data"
+                                ],
+                                "currency"
+                            ]
+                        ],
+                        [
+                            2,
+                            [
+                                31,
+                                "=",
+                                [
+                                    35,
+                                    [
+                                        40,
+                                        "c"
+                                    ],
+                                    "currency"
+                                ],
+                                [
+                                    35,
+                                    [
+                                        40,
+                                        "data"
+                                    ],
+                                    "currency"
+                                ]
+                            ]
+                        ]
+                    ],
+                    [
+                        2,
+                        [
+                            37,
+                            [
+                                40,
+                                "r"
+                            ],
+                            [
+                                35,
+                                [
+                                    40,
+                                    "data"
+                                ],
+                                "counter_id"
+                            ],
+                            "reachGoal",
+                            [
+                                35,
+                                [
+                                    40,
+                                    "data"
+                                ],
+                                "target"
+                            ],
+                            [
+                                40,
+                                "c"
+                            ]
+                        ]
+                    ],
+                    [
+                        2,
+                        [
+                            37,
+                            [
+                                35,
+                                [
+                                    40,
+                                    "data"
+                                ],
+                                "ytmOnSuccess"
+                            ]
+                        ]
+                    ]
+                ],
+                [
+                    2,
+                    [
+                        37,
+                        [
+                            35,
+                            [
+                                40,
+                                "data"
+                            ],
+                            "ytmOnFailure"
+                        ]
+                    ]
+                ]
+            ]
+        ],
+        [
+            1,
+            "t-178-2",
+            [
+                18,
+                [
+                    "e",
+                    [
+                        37,
+                        [
+                            40,
+                            "require"
+                        ],
+                        "queryPermission"
+                    ]
+                ],
+                [
+                    "a",
+                    [
+                        37,
+                        [
+                            40,
+                            "require"
+                        ],
+                        "logToConsole"
+                    ]
+                ],
+                [
+                    "i",
+                    [
+                        37,
+                        [
+                            40,
+                            "e"
+                        ],
+                        "logging"
+                    ]
+                ]
+            ],
+            [
+                7,
+                [
+                    40,
+                    "i"
+                ],
+                [
+                    3,
+                    [
+                        2,
+                        [
+                            37,
+                            [
+                                40,
+                                "a"
+                            ],
+                            [
+                                35,
+                                [
+                                    40,
+                                    "data"
+                                ],
+                                "variable"
+                            ]
+                        ]
+                    ],
+                    [
+                        2,
+                        [
+                            37,
+                            [
+                                35,
+                                [
+                                    40,
+                                    "data"
+                                ],
+                                "ytmOnSuccess"
+                            ]
+                        ]
+                    ]
+                ],
+                [
+                    2,
+                    [
+                        37,
+                        [
+                            35,
+                            [
+                                40,
+                                "data"
+                            ],
+                            "ytmOnFailure"
+                        ]
+                    ]
+                ]
+            ]
+        ]
+    ]
+}
